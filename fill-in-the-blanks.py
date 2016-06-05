@@ -21,7 +21,7 @@ answer1 = ["attributes", "opening", "closing", "markup"]
 
 answer2 = ['procedural', 'abstract', 'systems', 'debugging']
 
-answer3 = ['columns', 'key']
+answer3 = ['columns', 'key', 'tables', 'relationships']
 
 # The following are some test strings to pass in to the play_game function.
 test_string1 = "HTML Attributes: Some tags accept additional values called __1__.  Most HTML tags consist of an" \
@@ -32,6 +32,8 @@ test_string2 = "Ways of Thinking: Blank1 thinking involves creating perfectly cl
                "a big problem into smaller pieces.  __4__ is a systematic process of relentlessly identifying the cause of a computer program" \
                "failure"
 test_string3 = "Rules Summary for Normalized Tables: 1. Every row has the same number of __1__.  2.  There is a  unique key and everything " \
+               "in the row says something about the __2__.  Facts that don't relate to the key belong in different __3__.  " \
+               "Tables shouldn't imply __4__ that don't exist."
 
 
 def gamebegin():
