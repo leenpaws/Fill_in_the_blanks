@@ -1,21 +1,4 @@
-# IPND Stage 2 Final Project
-
-# You've built a Mad-Libs game with some help from Sean.
-# Now you'll work on your own game to practice your skills and demonstrate what you've learned.
-
-# For this project, you'll be building a Fill-in-the-Blanks quiz.
-# Your quiz will prompt a user with a paragraph containing several blanks.
-# The user should then be asked to fill in each blank appropriately to complete the paragraph.
-# This can be used as a study tool to help you remember important vocabulary!
-
-# Note: Your game will have to accept user input so, like the Mad Libs generator,
-# you won't be able to run it using Sublime's `Build` feature.
-# Instead you'll need to run the program in Terminal or IDLE.
-# Refer to Work Session 5 if you need a refresher on how to do this.
-
-# To help you get started, we've provided a sample paragraph that you can use when testing your code.
-# Your game should consist of 3 or more levels, so you should add your own paragraphs as well!
-# A list of replacement words to be passed in to the play game function.
+# These are the answers and test strings
 parts_of_speech = ["__1__", "__2__", "__3__", "__4__"]
 answer1 = ["attributes", "opening", "closing", "markup"]
 
@@ -35,7 +18,8 @@ test_string3 = "Rules Summary for Normalized Tables: 1. Every row has the same n
                "in the row says something about the __2__.  Facts that don't relate to the key belong in different __3__.  " \
                "Tables shouldn't imply __4__ that don't exist."
 
-
+#   This function prompts user to input the answer and returns the result to the play
+#   game function
 def gamebegin():
     level = raw_input("Please provide answer in all lower case!!" \
                       "Please choose a level 1. easy 2. medium 3. hard : ")
